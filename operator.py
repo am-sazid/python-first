@@ -1,4 +1,4 @@
-'''
+
 # Addition
 a=20
 b=10
@@ -26,7 +26,6 @@ print(x**y)
 # Floor division
 print(x//y)
 
-'''
 
 # Assignment Operators
 
@@ -34,3 +33,31 @@ a = 10
 
 a += 10
 print(a)
+
+
+a=10
+
+a -= 20
+
+print(a)
+
+
+a =10 
+
+a*= 10
+
+print(a)
+
+
+# comparison oparetor
+
+x = 10
+y = 12
+
+print(x==y)
+print(x!=y)
+print(x>y)
+print(x<y)
+print(x>=y)
+print(x<=y)
+
