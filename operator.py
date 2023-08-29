@@ -60,4 +60,96 @@ print(x>y)
 print(x<y)
 print(x>=y)
 print(x<=y)
+print("SAZID"=="SAZID")
+
+# ternery operator
+
+num1 = 30
+num2 = 20
+
+print(num1 if num1 > num2 else num2 )
+
+# Python Bangla Tutorials Logical operator 
+
+     # use and
+
+num1 = 30
+num2 = 40
+num3 = 10
+
+if num1 > num2 and num1 > num3 :
+    print(num1)
+elif num2 > num1 and num2 > num3 :
+    print(num2)
+else :
+    print(num3)
+    
+   # use or
+   
+c = "s"
+if c == "a" or c == "e" or c == "i" or c == "o" or c== "u":
+
+    print("vowel")
+    
+else :
+    print("consonant")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
