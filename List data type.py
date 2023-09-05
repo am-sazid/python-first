@@ -134,3 +134,47 @@ while i < len(thislist):
   print(thislist[i])
   i = i + 1
   
+#new list tricks 
+
+sazid = ["html", "css", "js", "python", "java"]
+
+print(sazid)
+print(sazid[0])
+print(sazid[2:])
+print(sazid[-1])
+
+# use in or not in 
+print("python" in sazid)
+print("python" not in sazid)
+print(sazid + ["swift", 15])
+print(sazid * 2)
+
+# List part 2
+
+print(len(sazid))
+sazid.append("toc")
+print(sazid)
+
+sazid.insert(3,"c++")
+print(sazid)
+
+sazid.remove("js")
+print(sazid)
+
+sazid.sort()
+print(sazid)
+
+sazid.reverse()
+print(sazid)
+
+sazid.pop()
+print(sazid)
+
+print(sazid.index("html"))
+
+sazid2 = sazid.copy()
+print(sazid2)
+
+sazid3 = [2,2,3,43,42,522,2,3,4,2,]
+co = sazid3.count(2)
+print(co)

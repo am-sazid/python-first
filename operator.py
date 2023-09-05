@@ -86,7 +86,7 @@ else :
     
    # use or
    
-c = "s"
+c = "a"
 if c == "a" or c == "e" or c == "i" or c == "o" or c== "u":
 
     print("vowel")
@@ -95,9 +95,14 @@ else :
     print("consonant")
 
 
+# Letter grade program
 
+marks = 75
 
-
+if 80 <= marks >= 100:
+    print("A+")
+elif 70 <= marks >= 79:
+    print("A")
 
 
 
